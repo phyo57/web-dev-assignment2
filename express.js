@@ -5,7 +5,6 @@ const app = express()
 app.use(express.static('assignment'))
 
 //set views
-app.set('view engine', 'ejs' )
 
 app.get("/red", (req,res) => {
     console.log("red")
