@@ -4,8 +4,8 @@ const app = express()
 //static files
 app.use(express.static('assignment'))
 
-//set views
 
+//set views
 app.get("/red", (req,res) => {
     console.log("red")
     res.sendFile(__dirname + "/assignment/red.html")
